@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="12" viewBox="0 0 18 12">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.048" x2="0.945" y2="0.89" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7746ff"/>
+      <stop offset="0" stop-color="#7847ff"/>
+      <stop offset="1" stop-color="#985ffa"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_310" data-name="Grupo 310" transform="translate(-4.017 -8.034)">
+    <path id="Trazado_424" data-name="Trazado 424" d="M4,18H20a1,1,0,1,0,0-2H4a1,1,0,1,0,0,2Zm0-5H20a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2ZM3,7A1,1,0,0,0,4,8H20a1,1,0,0,0,0-2H4A1,1,0,0,0,3,7Z" transform="translate(1.017 2.034)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

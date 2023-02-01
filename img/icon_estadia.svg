@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7746ff"/>
+      <stop offset="1" stop-color="#985ffa"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_356" data-name="Grupo 356" transform="translate(-1026 -3659)">
+    <g id="Grupo_43" data-name="Grupo 43" transform="translate(1024 3659)">
+      <path id="Trazado_54" data-name="Trazado 54" d="M5.6,14.8v18a1.8,1.8,0,0,1-3.6,0v-18a1.8,1.8,0,0,1,3.6,0Z" transform="translate(0 7.2)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_55" data-name="Trazado 55" d="M2,14H47V30.2H2Z" transform="translate(0 8)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_56" data-name="Trazado 56" d="M4,7.6V18.4H7.6V16.6a1.8,1.8,0,0,1,1.8-1.8h9.9a1.8,1.8,0,0,1,1.8,1.8v1.814h3.6V16.6a1.8,1.8,0,0,1,1.8-1.8h9.9a1.8,1.8,0,0,1,1.8,1.8v1.8h3.6V7.6A3.6,3.6,0,0,0,38.2,4H7.6A3.6,3.6,0,0,0,4,7.6Z" transform="translate(1.6 0)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_57" data-name="Trazado 57" d="M28.6,14.8v18a1.8,1.8,0,1,1-3.6,0v-18a1.8,1.8,0,1,1,3.6,0Z" transform="translate(18.4 7.2)" fill="url(#linear-gradient)"/>
+    </g>
+    <rect id="Rectángulo_131" data-name="Rectángulo 131" width="45" height="45" transform="translate(1026 3659)" fill="none"/>
+  </g>
+</svg>

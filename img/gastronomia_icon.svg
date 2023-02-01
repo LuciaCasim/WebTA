@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fed773"/>
+      <stop offset="1" stop-color="#fdbe18"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_84" data-name="Group 84" transform="translate(-171 -2920.332)">
+    <g id="Group_44" data-name="Group 44" transform="translate(-53.322 1585.01)">
+      <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(224.321 1335.321)" stroke="#c6931a" stroke-width="2" fill="url(#linear-gradient)">
+        <rect width="50" height="50" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="48" height="48" rx="9" fill="none"/>
+      </g>
+    </g>
+    <g id="Ebene_2" data-name="Ebene 2" transform="translate(164.837 2914.893)">
+      <g id="Ebene_1" data-name="Ebene 1" transform="translate(21.491 16.996)">
+        <path id="Path_80" data-name="Path 80" d="M12.972,3.84h-.858l-.3,6.388H11.05L10.724,3.84H9.807l-.3,6.388H8.743l-.3-6.388H7.5l-.3,6.388H6.436L6.11,3.84H5.282L4.75,12.328a2.958,2.958,0,0,0,.739,1.834,2.78,2.78,0,0,0,1.952.887V29.6a1.153,1.153,0,0,0,1.124,1.124H9.63A1.153,1.153,0,0,0,10.754,29.6V15.049a2.958,2.958,0,0,0,1.952-.887,2.691,2.691,0,0,0,.739-1.834Zm9.937,0a1.213,1.213,0,0,0-.976.532,5.56,5.56,0,0,0-.473.68c-2.721,4.525-3.431,16.03-3.431,16.03H20.78v8.606a1.094,1.094,0,0,0,1.094,1.035h1.094a1.094,1.094,0,0,0,1.124-1.035V5.023A1.183,1.183,0,0,0,22.909,3.84Z" transform="translate(-4.75 -3.84)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
