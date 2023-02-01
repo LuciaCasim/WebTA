@@ -1,4 +1,6 @@
+import animacionRequisito from './../requisitos.js';
 import events from "./../events.js";
+
 
 function translateEnglish() {
    // NAV
@@ -312,7 +314,7 @@ function translateEnglish() {
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#legales__accordion">
             <div class="accordion-body p">
-             <p> 1. Tourist Users who make the purchase of a ticket or tourist package to the Argentine Republic between the dates 08/15/2022 and 12/15/2022 or until the stock available for the Program runs out, will receive a “Gift Card ” personal and non-transferable to spend only in the Argentine territory during your stay in that country. This benefit will apply to tickets or packages purchased from transport companies and/or agencies selected by INPROTUR to promote the benefit.-</p>
+             <p> 1. Tourist Users who make the purchase of a ticket or tourist package to the Argentine Republic between the dates 01/01/2023 and 12/31/2023 or until the stock available for the Program runs out, will receive a “Gift Card ” personal and non-transferable to spend only in the Argentine territory during your stay in that country. This benefit will apply to tickets or packages purchased from transport companies and/or agencies selected by INPROTUR to promote the benefit.-</p>
 
               <p>2. In the case of the Buquebus river company, the Program will be implemented only for passengers who purchase Tourist Packages (combo of Ticket and Lodging).</p> 
 
@@ -320,7 +322,7 @@ function translateEnglish() {
 
              <p>For this reason, people who only have Argentine nationality will not participate in the Program.</p>                
 
-              <p>4. The aforementioned purchase of tickets between the dates 08/15/2022 and 12/15/2022 must have been made once the campaign was launched with each corresponding company. The benefit is not retroactive: people who have bought before the company launches the advertising campaign will not participate in the Program.</p>
+              <p>4. The aforementioned purchase of tickets between the dates 01/01/2023 and 12/31/2023 must have been made once the campaign was launched with each corresponding company. The benefit is not retroactive: people who have bought before the company launches the advertising campaign will not participate in the Program.</p>
 
               <p>5. The benefit of the Program will be displayed in the form of points, which will be awarded based on the official exchange rate between the US dollar and the Argentine peso on the date INPROTUR sends the e-mails with the invitation to the beneficiaries, according to what is established in point B.10.--</p>
 

@@ -1,4 +1,6 @@
+import animacionRequisito from './../requisitos.js';
 import events from "./../events.js";
+
 
 function translateSpanish() {
   // NAV
@@ -313,7 +315,7 @@ function translateSpanish() {
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#legales__accordion">
             <div class="accordion-body p">
-             <p> 1. Los Usuarios Turistas que efectúen la compra de un pasaje o paquete turístico con destino a la República Argentina entre las fechas 15/08/2022 y  15/12/2022 o hasta agotar el stock disponible para el Programa, recibirán una “Gift Card” personal e intransferible para gastar únicamente en territorio argentino durante su estadía en dicho país. Este beneficio se aplicará a los pasajes o paquetes comprados a empresas de transporte y/o agencias seleccionadas por INPROTUR para promocionar el beneficio.-</p>
+             <p> 1. Los Usuarios Turistas que efectúen la compra de un pasaje o paquete turístico con destino a la República Argentina entre las fechas 01/01/2023 e 31/12/2023 o hasta agotar el stock disponible para el Programa, recibirán una “Gift Card” personal e intransferible para gastar únicamente en territorio argentino durante su estadía en dicho país. Este beneficio se aplicará a los pasajes o paquetes comprados a empresas de transporte y/o agencias seleccionadas por INPROTUR para promocionar el beneficio.-</p>
 
               <p>2. En caso de la empresa fluvial Buquebus, el Programa será implementado solamente para pasajeros que adquieran Paquetes Turísticos (combo de Pasaje y Hospedaje).</p> 
 
@@ -321,7 +323,7 @@ function translateSpanish() {
 
              <p> Por tal motivo, las personas que solamente posean nacionalidad argentina no participarán en el Programa.</p>                
 
-              <p>4. La mencionada compra de pasajes entre las fechas 15/08/2022 y 15/12/2022 tiene que haberse realizado una vez lanzada la campaña con cada empresa correspondiente. El beneficio no es retroactivo: las personas que hayan comprado antes de que la empresa lance la campaña publicitaria, no participarán del Programa.</p>
+              <p>4. La mencionada compra de pasajes entre las fechas 01/01/2023 e 31/12/2023 tiene que haberse realizado una vez lanzada la campaña con cada empresa correspondiente. El beneficio no es retroactivo: las personas que hayan comprado antes de que la empresa lance la campaña publicitaria, no participarán del Programa.</p>
 
               <p>5. El beneficio del Programa se visualizará en forma de puntos, los cuales serán otorgados a partir del tipo de cambio oficial entre dólar estadounidense y peso argentino en la fecha en la que INPROTUR envíe los e-mails con la invitación a los beneficiarios, según lo establecido en el punto B.10.-</p>
 

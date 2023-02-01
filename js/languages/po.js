@@ -1,3 +1,4 @@
+import animacionRequisito from './../requisitos.js';
 import events from "./../events.js";
 
 function translatePortuguese() {
@@ -23,7 +24,7 @@ function translatePortuguese() {
     <section class="home container-sm d-flex align-items-center" id="home" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
       <div class="row d-flex align-items-center">
         <div class="order-lg-2 col-lg-5 home__image">
-          <img src="img\home__img.png" alt="Woman holding her mobile phone and celebrating." class="img-fluid home__img">
+          <img src="img\home__img.png" alt="Mulher segurando seu celular e festejando" class="img-fluid home__img">
         </div>
         <div class="order-lg-1 col-lg-5 offset-lg-1 home__text">
           <p class="p text-uppercase">Visit Argentina apresenta</p>
@@ -47,28 +48,28 @@ function translatePortuguese() {
         <div class="row d-flex align-items-end steps__list" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
   
           <div class="order-lg-2 col-12 col-lg-6 col-xxl-5 offset-xxl-1 steps__image d-flex align-items-center justify-content-center">
-            <img src="img\steps__image.png" alt="Woman laughing, holding a glass of wine." class="img-fluid steps__img">
-            <img src="img\steps__image-small.png" alt="Woman laughing, holding a glass of wine." class="img-fluid steps__img-small">
+            <img src="img\steps__image.png" alt="Mulher rindo e bebendo uma taça de vinho." class="img-fluid steps__img">
+            <img src="img\steps__image-small.png" alt="Mulher rindo e bebendo uma taça de vinho." class="img-fluid steps__img-small">
           </div>
   
           <div class="order-lg-1 col-12 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
   
                 <div class="whiteButton steps__item steps__item-01">
-                  <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img/steps_inscripcion.svg" alt="Pencil icon writing on a sheet of paper."><p class="steps__indicator-num">1</p></div>
+                  <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img/steps_inscripcion.svg" alt="Ícone de um lápis escrevendo em uma folha."><p class="steps__indicator-num">1</p></div>
                   <div>
                     <p class="p steps-p">Preencha o <u><a href="#inscripcion" id="steps-inscripcion">formulário</a></u> abaixo com os seus dados e detalhes da viagem. Quanto mais longa for a sua estadia, mais a sua gift card valerá a pena!</p>
                   </div>
                 </div>
   
                 <div class="whiteButton steps__item steps__item-02">
-                  <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img/steps_requisitos.svg" alt="Icon of a tick in a circle."><p class="steps__indicator-num">2</p></div>
+                  <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img/steps_requisitos.svg" alt="Ícone de um til dentro de um círculo."><p class="steps__indicator-num">2</p></div>
                   <div>
                     <p class="p steps-p">Caso você cumpra os <u><a href="#requisitos" id="steps-requisitos">requisitos</a></u> será registrado na nossa plataforma, onde poderá ver os pontos da sua gift card e as experiências disponíveis.</p>
                   </div>
                 </div>
   
                 <div class="whiteButton steps__item">
-                  <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img\steps_regalo.svg" alt="Icon of a gift."><p class="steps__indicator-num">3</p></div>
+                  <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img\steps_regalo.svg" alt="Ícone de um presente."><p class="steps__indicator-num">3</p></div>
                   <div>
                     <p class="p steps-p">Quando você chegar na Argentina, sua gift card será ativada automaticamente. Pronto! Agora você pode desfrutar do seu tesouro.</p>
                   </div>
@@ -83,18 +84,18 @@ function translatePortuguese() {
     <section class="inscripcion" id="inscripcion">  
       <div class="container-sm">
         <div class="row d-flex align-items-end">
-          <div class="col-12 col-lg-6 col-xl-5 d-flex justify-content-center"><img src="img\inscripcion__image.png" alt="Mujer haciendo rafting" class="img-fluid inscripcion__img" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"></div>
+          <div class="col-12 col-lg-6 col-xl-5 d-flex justify-content-center"><img src="img\inscripcion__image.png" alt="Mulher fazendo rafting." class="img-fluid inscripcion__img" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"></div>
           
           <div class="col-12 col-lg-6 offset-xl-1" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <div class="inscripcion__header">
               <div class="inscripcion__title d-flex align-items-center">
-                <img src="img\inscripcion_icon.svg" alt="Pencil icon writing on a sheet of paper." class="inscripcion__icon">
+                <img src="img\inscripcion_icon.svg" alt="Ícone de um lápis escrevendo em uma folha." class="inscripcion__icon">
                 <h2 class="h2">Inscrição</h2>
               </div>
               <p class="p-big">Responda ao seguinte formulário anexando o seu <strong>bilhete e vouchers de hospedagem.</strong></p>
             </div>
             <div class="row">
-              <div class="col-12 col-md-6 order-md-2 inscripcion__image-small d-flex align-items-center"><img src="img\inscripcion__image-small.png" alt="Woman rafting." class="img-fluid inscripcion__img-small"></div>
+              <div class="col-12 col-md-6 order-md-2 inscripcion__image-small d-flex align-items-center"><img src="img\inscripcion__image-small.png" alt="Mulher fazendo rafting." class="img-fluid inscripcion__img-small"></div>
   
               <div class="col-12 col-md-6 col-lg-12 order-md-1 whiteButton inscripcion__form-container d-flex align-items-center">
                   <div data-tf-widget="prGmBI5l" data-tf-inline-on-mobile data-tf-opacity="100" data-tf-iframe-props="title=formularioWeb_POR" data-tf-transitive-search-params data-tf-medium="snippet" style="width:90%;height:300px;margin:2rem auto;"></div><script src="//embed.typeform.com/next/embed.js"></script>            
@@ -112,7 +113,7 @@ function translatePortuguese() {
     <section class="experiencias container-sm" id="experiencias">
       <div class="experiencias__header" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <div class="experiencias__title d-flex align-items-center justify-content-center">
-          <img src="img\experiencias_icon.svg" alt="Icon of a gift." class="experiencias__icon">
+          <img src="img\experiencias_icon.svg" alt="Ícone de um presente." class="experiencias__icon">
           <h2 class="h2 text-center">Experiências</h2>
         </div>
         <p class="p-big text-center">Temos mais de <strong>1500 opções</strong> em todo o país para você escolher a sua favorita.</p>
@@ -134,7 +135,7 @@ function translatePortuguese() {
   
                   <div class="col-12 col-lg-6 experiencias__item-text">
                     <div class="experiencias__item-category d-flex align-items-center">
-                      <img src="img\gastronomia_icon.svg" alt="Icon of a fork and a knife." class="experiencias__item-icon">
+                      <img src="img\gastronomia_icon.svg" alt="Ícone de um garfo e uma faca." class="experiencias__item-icon">
                       <h3 class="h3">Gastronomia</h3>
                     </div>
                     <p class="experiencias__item-p p">
@@ -154,7 +155,7 @@ function translatePortuguese() {
   
                 <div class="col-12 col-lg-6 experiencias__item-text">
                   <div class="experiencias__item-category d-flex align-items-center">
-                    <img src="img\bienestar_icon.svg" alt="Icon of a person meditating." class="experiencias__item-icon">
+                    <img src="img\bienestar_icon.svg" alt="Ícone de uma pessoa meditando." class="experiencias__item-icon">
                     <h3 class="h3">Bem-estar</h3>
                   </div>
                   <p class="experiencias__item-p p">
@@ -174,7 +175,7 @@ function translatePortuguese() {
   
               <div class="col-12 col-lg-6 experiencias__item-text">
                 <div class="experiencias__item-category d-flex align-items-center">
-                  <img src="img\aventura_icon.svg" alt="Icon of a tent." class="experiencias__item-icon">
+                  <img src="img\aventura_icon.svg" alt="Ícone de uma tenda." class="experiencias__item-icon">
                   <h3 class="h3">Aventura</h3>
                 </div>
                 <p class="experiencias__item-p p">
@@ -194,7 +195,7 @@ function translatePortuguese() {
   
             <div class="col-12 col-lg-6 experiencias__item-text">
               <div class="experiencias__item-category d-flex align-items-center">
-                <img src="img\entretenimiento_icon.svg" alt="Icon of a star." class="experiencias__item-icon">
+                <img src="img\entretenimiento_icon.svg" alt="Ícone de uma estrela." class="experiencias__item-icon">
                 <h3 class="h3">Entretenimento</h3>
               </div>
               <p class="experiencias__item-p p">
@@ -229,7 +230,7 @@ function translatePortuguese() {
     <section class="requisitos" id="requisitos">
       <div class="container-sm">
         <div class="requisitos__title d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <img src="img\inscripcion_icon.svg" alt="Un ícono de un tick dentro de un círculo." class="requisitos__icon">
+          <img src="img\inscripcion_icon.svg" alt="Ícone de um til dentro de um círculo." class="requisitos__icon">
           <h2 class="h2">Requisitos</h2>
         </div>
   
@@ -238,7 +239,7 @@ function translatePortuguese() {
           <div class="requisito__card requisito-active col-12 col-lg-4">
             <div class="requisito__inner d-flex flex-column justify-content-center align-items-center">
               <div class="whiteButton requisito__image d-flex align-items-center justify-content-center">
-                <img src="img\icon_nacionalidad.svg" alt="Icon of a globe." class="requisito__img">
+                <img src="img\icon_nacionalidad.svg" alt="Ícone de um globo terrestre." class="requisito__img">
               </div>
               <div class="text-center requisito__text">
                 <p class="requisito__p-small">Ser de nacionalidade</p>
@@ -250,7 +251,7 @@ function translatePortuguese() {
           <div class="requisito__card col col-12 col-lg-4">
             <div class="requisito__inner d-flex flex-column justify-content-center align-items-center">
               <div class="whiteButton requisito__image d-flex align-items-center justify-content-center">
-                <img src="img\icon_edad.svg" alt="Icon of a number 18 with a plus sign to its right." class="requisito__img">
+                <img src="img\icon_edad.svg" alt="Ícone de um número 18 com um sinal de mais à sua direita." class="requisito__img">
               </div>
               <div class="text-center requisito__text">
                 <p class="requisito__p-small">Ter mais de</p>
@@ -262,7 +263,7 @@ function translatePortuguese() {
           <div class="requisito__card col col-12 col-lg-4">
             <div class="requisito__inner d-flex flex-column justify-content-center align-items-center">
               <div class="whiteButton requisito__image d-flex align-items-center justify-content-center">
-                <img src="img\icon_estadia.svg" alt="Icon of a bed." class="requisito__img">
+                <img src="img\icon_estadia.svg" alt="Ícone de uma cama." class="requisito__img">
               </div>
               <div class="text-center requisito__text">
                 <p class="requisito__p-small">Ter uma estadia mínima</p>
@@ -279,7 +280,7 @@ function translatePortuguese() {
     <section class="legales container-sm" id="legales">
   
       <div class="legales__title d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-        <img src="img\legales_icon.svg" alt="Icon of a scale." class="legales__icon">
+        <img src="img\legales_icon.svg" alt="Um ícone de uma balança." class="legales__icon">
         <h2 class="h2">Legal</h2>
       </div>
   
@@ -313,7 +314,7 @@ function translatePortuguese() {
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#legales__accordion">
               <div class="accordion-body p">
-               <p> 1. Os Usuários Turistas que fizerem a compra de uma passagem ou pacote turístico para a República Argentina entre as datas de 15/08/2022 e 15/04/2023 ou até que o estoque disponível para o Programa esteja esgotado, receberão um "Gift Card" pessoal e intransferível para gastar apenas em território argentino durante sua estadia naquele país. Esse benefício será aplicado a passagens ou pacotes adquiridos em empresas de transporte e ou agências selecionadas pelo INPROTUR para promover o benefício.-</p>
+               <p> 1. Os Usuários Turistas que fizerem a compra de uma passagem ou pacote turístico para a República Argentina entre as datas de 01/01/2023 e 31/12/2023 ou até que o estoque disponível para o Programa esteja esgotado, receberão um "Gift Card" pessoal e intransferível para gastar apenas em território argentino durante sua estadia naquele país. Esse benefício será aplicado a passagens ou pacotes adquiridos em empresas de transporte e ou agências selecionadas pelo INPROTUR para promover o benefício.-</p>
   
                 <p>2. No caso da empresa fluvial Buquebus, o Programa será implementado apenas para os passageiros que adquirirem Pacotes Turísticos (Combo De Passagem e Hospedagem).-</p> 
   
@@ -321,7 +322,7 @@ function translatePortuguese() {
   
                <p>Por essa razão, pessoas que só têm nacionalidade argentina não participarão do Programa.-</p>                
   
-                <p>4. A aquisição acima mencionada de passagens entre as datas de 15/08/2022 e 15/12/2022 deve ter sido feita assim que a campanha com cada empresa correspondente for lançada. O benefício não é retroativo: pessoas que compraram antes de a empresa lançar a campanha publicitária, não participarão do Programa.-</p>
+                <p>4. A aquisição acima mencionada de passagens entre as datas de 01/01/2023 e 31/12/2023 deve ter sido feita assim que a campanha com cada empresa correspondente for lançada. O benefício não é retroativo: pessoas que compraram antes de a empresa lançar a campanha publicitária, não participarão do Programa.-</p>
   
                 <p>5. O benefício do Programa será exibido na forma de pontos, que serão concedidos a partir da taxa de câmbio oficial entre o dólar americano e o peso argentino na data em que o INPROTUR envie os emails com o convite aos beneficiários, conforme estabelecido no ponto B.10.-</p>
   
@@ -480,11 +481,11 @@ function translatePortuguese() {
         <div class="footer__logos">
           <div class="row">
             <div class="footer__logo logo__tesoros col-12 col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center justify-content-center">
-              <img src="img\tesorosargentinos_logoblanco.svg" alt="Logo Tesoros Argentinos" class="img-fluid">
+              <img src="img\tesorosargentinos_logoblanco.svg" alt="Logotipo do Tesoros Argentinos." class="img-fluid">
             </div>
             <div class="footer__logo logo__visit col-12 col-lg-6 col-xl-5 d-flex flex-column align-items-center justify-content-center">
               <p>Uma iniciativa do</p>
-              <img src="img\visitArgentina_logo.svg" alt="Tesoros Argentinos logo." class="img-fluid">
+              <img src="img\visitArgentina_logo.svg" alt="Logotipo do Visit Argentina." class="img-fluid">
             </div>
           </div>
           
@@ -503,11 +504,11 @@ function translatePortuguese() {
   
         <div class="footer__social">
           <ul class="d-flex align-items-center justify-content-center footer__social_list">
-            <li class="footer__social_icon"><a href="https://www.instagram.com/visitargentina/" target="_blank"><img class="footer__social_icon-img" src="img\instagram_icon.svg" alt="Instagram icon."></a></li>
-            <li class="footer__social_icon"><a href="https://www.facebook.com/visitarg/" target="_blank"><img class="footer__social_icon-img" src="img\facebook_icon.svg" alt="Facebook icon."></a></li>
-            <li class="footer__social_icon"><a href="https://twitter.com/visitargentina" target="_blank"><img class="footer__social_icon-img" src="img\twitter_icon.svg" alt="Twitter icon."></a></li>
-            <li class="footer__social_icon"><a href="https://www.tiktok.com/@visitargentina_" target="_blank"><img class="footer__social_icon-img" src="img\tiktok_icon.svg" alt="TikTok icon."></a></li>
-            <li class="footer__social_icon"><a href="https://www.youtube.com/channel/UC9w7aOZMl9a1l9boy4Y-xGg" target="_blank"><img class="footer__social_icon-img" src="img\youtube_icon.svg" alt="YouTube icon."></a></li>
+            <li class="footer__social_icon"><a href="https://www.instagram.com/visitargentina/" target="_blank"><img class="footer__social_icon-img" src="img\instagram_icon.svg" alt="Ícone do Instagram."></a></li>
+            <li class="footer__social_icon"><a href="https://www.facebook.com/visitarg/" target="_blank"><img class="footer__social_icon-img" src="img\facebook_icon.svg" alt="Ícone do Facebook."></a></li>
+            <li class="footer__social_icon"><a href="https://twitter.com/visitargentina" target="_blank"><img class="footer__social_icon-img" src="img\twitter_icon.svg" alt="Ícone do Twitter."></a></li>
+            <li class="footer__social_icon"><a href="https://www.tiktok.com/@visitargentina_" target="_blank"><img class="footer__social_icon-img" src="img\tiktok_icon.svg" alt="Ícone do TikTok."></a></li>
+            <li class="footer__social_icon"><a href="https://www.youtube.com/channel/UC9w7aOZMl9a1l9boy4Y-xGg" target="_blank"><img class="footer__social_icon-img" src="img\youtube_icon.svg" alt="Ícone do YouTube icon."></a></li>
           </ul>
         </div>
       </div>
