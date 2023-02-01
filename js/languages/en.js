@@ -3,6 +3,7 @@ import events from "./../events.js";
 
 
 function translateEnglish() {
+
    // NAV
    document.getElementById("nav-inscripcion").innerHTML  ="Enrolment";
    document.getElementById("nav-experiencias").innerHTML  ="Experiences";
@@ -14,7 +15,7 @@ function translateEnglish() {
     <div class="whiteButton whatsapp_description">
       <p>Questions? <span>Contact us!</span></p>
     </div>
-      <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122589664" target="_blank" rel="noopener noreferrer">
+      <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122403532" target="_blank" rel="noopener noreferrer">
         <img src="img\whatsapp_icon.svg" alt="Whatsapp icon">
       </a>       
   </div>
@@ -39,7 +40,7 @@ function translateEnglish() {
   <section class="steps container-sm" id="steps">
       <div class="steps__title row" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <div class="col col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
-          <h3 class="h2">Sign up. Travel. <br><span id="steps__highlight" data-annotate>Enjoy your treasure.</span></h3>
+          <h3 class="h2">Sign up. Travel. <br><span id="steps__highlight-1" data-annotate>Enjoy your </span><span id="steps__highlight-2" data-annotate>treasure.</span></h3>
           <p class="p-big">Enjoy the best experiences of Argentina: gastronomy, adventure, wellness, and shows! <strong>No raffles: the steps are very simple!</strong></p>
         </div>
         

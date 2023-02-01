@@ -15,7 +15,7 @@ function translateSpanish() {
     <div class="whiteButton whatsapp_description">
       <p>¿Dudas? <span>¡Escribinos!</span></p>
     </div>
-      <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122589664" target="_blank" rel="noopener noreferrer">
+      <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122403532" target="_blank" rel="noopener noreferrer">
         <img src="img\whatsapp_icon.svg" alt="Icono de whatsapp">
       </a>       
   </div>
@@ -40,7 +40,7 @@ function translateSpanish() {
   <section class="steps container-sm" id="steps">
       <div class="steps__title row" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <div class="col col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
-          <h3 class="h2">Inscribite. Viajá.<br><span id="steps__highlight" data-annotate>Disfrutá de tu tesoro.</span></h3>
+          <h3 class="h2">Inscribite. Viajá.<br><span id="steps__highlight-1" data-annotate>Disfrutá de tu </span><span id="steps__highlight-2" data-annotate>tesoro.</span></h3>
           <p class="p-big">Viví las mejores experiencias de gastronomía, aventura, bienestar y espectáculos que Argentina tiene para ofrecerte. <strong>Sin sorteos: ¡el procedimiento es muy sencillo!</strong></p>
         </div>
         
