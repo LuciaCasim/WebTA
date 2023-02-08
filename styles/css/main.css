@@ -179,21 +179,10 @@ p {
 }
 
 .navbar {
-  -webkit-animation: fadeInAnimation ease 2s;
-          animation: fadeInAnimation ease 2s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   background: #F8F8F8;
-}
-@-webkit-keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 @keyframes fadeInAnimation {
   0% {
@@ -336,12 +325,9 @@ p {
 }
 
 .whatsapp_widget {
-  -webkit-animation: fadeInAnimation ease 2s;
-          animation: fadeInAnimation ease 2s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   transform-origin: center;
   display: flex;
   align-items: center;

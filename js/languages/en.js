@@ -30,7 +30,7 @@ function translateEnglish() {
       <div class="order-lg-1 col-lg-5 offset-lg-1 home__text">
         <p class="p text-uppercase">Visit Argentina presents</p>
         <h1 class="h1">Tesoros <span>Argentinos</span></h1>
-        <p class="p-big">If you are a foreigner, and you are travelling to Argentina, you can get a Gift Card of up to <strong>USD 500</strong> to redeem for experiences during your stay.</p>
+        <p class="p-big">If you are a foreigner, and you are travelling to Argentina, you can get a Gift Card of up to <strong>USD 100</strong> to redeem for experiences during your stay.</p>
         <button class="goldenButton hoverGoldenButton" id="hero-button"><a href="#inscripcion">Complete form</a></button>
       </div>
     </div>
