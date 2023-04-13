@@ -20,9 +20,9 @@ if (!sessionStorage.getItem('preferedLanguage')) {
     if (lang.includes("es")) {
         activeLanguage = "es"
     } else if (lang.includes("pt")) {
-        activeLanguage = "por"
+        activeLanguage = "po"
     } else {
-        activeLanguage = "eng"
+        activeLanguage = "en"
     }
 } else {
     activeLanguage = sessionStorage.getItem('preferedLanguage');
