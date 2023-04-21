@@ -1,0 +1,44 @@
+//COLORS
+$yellow: rgb(255, 202, 69);
+$light-yellow: #FCE39F;
+$gold: #C6931A;
+$brown: #764C0A;
+$purple: #6F00FF;
+$dark-purple: #6B598A;
+$light-purple: #B285FF;
+$very-light-purple: #F1EAFC;
+$white: #F8F8F8;
+
+
+
+//GRADIENTS
+@mixin golden-gradient {
+    background: rgb(254,215,115);
+    background: -moz-linear-gradient(135deg, rgba(254,215,115,1) 0%, rgba(253,190,24,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(254,215,115,1) 0%, rgba(253,190,24,1) 100%);
+    background: linear-gradient(135deg, rgba(254,215,115,1) 0%, rgba(253,190,24,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fed773",endColorstr="#fdbe18",GradientType=1);
+}
+
+@mixin purple-gradient {
+    background: rgb(119,70,255);
+    background: -moz-linear-gradient(135deg, rgba(119,70,255,1) 0%, rgba(152,95,250,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(119,70,255,1) 0%, rgba(152,95,250,1) 100%);
+    background: linear-gradient(135deg, rgba(119,70,255,1) 0%, rgba(152,95,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7746ff",endColorstr="#985ffa",GradientType=1);
+}
+
+
+//SHADOWS
+@mixin purple-shadow {
+    box-shadow: 0px 0px 8px 0px rgba(89,76,120,0.3);
+}
+
+@mixin purple-shadow-img {
+    filter: drop-shadow(0px 0px 5px rgba(89,76,120,0.3));
+}
+
+@mixin golden-shadow {
+    box-shadow: 0px 0px 8px 0px rgba(118,76,10,0.3);
+}
+

@@ -5,6 +5,7 @@ import translatePortuguese from "./languages/po.js";
 let lang = navigator.language || navigator.userLanguage;
 let activeLanguage;
 
+
 function translate(language) {
   if (language == "es") translateSpanish()
   else if (language == "po") translatePortuguese()
@@ -16,27 +17,39 @@ function dropdownSelected(lang) {
     document.getElementById("dropdown__selected").innerHTML = lang
 }
 
-if (!sessionStorage.getItem('preferedLanguage')) {
-    if (lang.includes("es")) {
-        activeLanguage = "es"
-    } else if (lang.includes("pt")) {
-        activeLanguage = "po"
-    } else {
-        activeLanguage = "en"
-    }
+// if (!sessionStorage.getItem('preferedLanguage')) {
+//     if (lang.includes("es")) {
+//         activeLanguage = "es"
+//     } else if (lang.includes("pt")) {
+//         activeLanguage = "po"
+//     } else {
+//         activeLanguage = "en"
+//     }
+// } else {
+//     activeLanguage = sessionStorage.getItem('preferedLanguage');
+// }
+
+if (localStorage.getItem('preferedLanguage')) {
+  activeLanguage = localStorage.getItem('preferedLanguage')
 } else {
-    activeLanguage = sessionStorage.getItem('preferedLanguage');
+  if (lang.includes("es")) {
+            activeLanguage = "es"
+        } else if (lang.includes("pt")) {
+            activeLanguage = "po"
+        } else {
+            activeLanguage = "en"
+        }
 }
 
 translate(activeLanguage);
 dropdownSelected(activeLanguage);
 
 
-location.hash = "/" + activeLanguage;
+// location.hash = "/" + activeLanguage;
 
 function changeLanguage(lang) {
-    location.hash = "/" + lang;
-    sessionStorage.setItem('preferedLanguage', lang);
+    // location.hash = "/" + lang;
+    localStorage.setItem('preferedLanguage', lang);
     translate(lang)
     activeLanguage = lang;
     dropdownSelected(activeLanguage);

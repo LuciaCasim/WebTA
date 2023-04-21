@@ -1,0 +1,23 @@
+.purpleButton {
+    @include purple-gradient;
+    @include purple-shadow;
+    border-radius: 15px;
+    border: solid 2px $light-purple;
+    color: $white;
+    @include manrope-bold;
+    font-size: 1.125rem;
+
+    // @media (max-width: map-get($grid-breakpoints, sm)) {
+    //     font-size: 1.25rem;
+    // }
+
+    
+}
+
+@mixin purpleButton {
+    @include purple-gradient;
+    @include purple-shadow;
+    border-radius: 15px;
+    border: solid 2px $light-purple;
+    color: $white;
+}

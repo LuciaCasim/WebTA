@@ -1,0 +1,21 @@
+// BASE
+@import 'base/variables';
+@import 'base/colors';
+@import 'base/reset';
+@import 'base/typography';
+
+// //COMPONENTS
+@import 'components/goldenButton';
+@import 'components/whiteButton';
+@import 'components/purpleButton';
+@import 'components/navBar';
+@import 'components/whatsapp-widget';
+
+// //SECTIONS
+@import 'sections/home';
+@import 'sections/steps';
+@import 'sections/inscripcion';
+@import 'sections/experiencias';
+@import 'sections/requisitos';
+@import 'sections/legales';
+@import 'sections/footer';

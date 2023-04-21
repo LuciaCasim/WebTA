@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    &::before, &::after {
+        box-sizing: border-box;}
+}
+
+body {
+    overflow: scroll;
+    position: relative;
+    overflow-x: hidden !important;
+    background: $white;
+    font-size: 16px;
+    // -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    // scrollbar-width: none; /* for Firefox */
+    // overflow-y: scroll; 
+
+    // &::-webkit-scrollbar {
+    //     display: none; /* for Chrome, Safari, and Opera */
+    //   }
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+
+a, a::before, a::after, a:visited, a:hover {
+    text-decoration: none !important;
+    color: $dark-purple;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.container-sm {
+    @media (max-width: map-get($grid-breakpoints, sm)) {
+        padding: 0 1.5rem;
+     }
+    
+}

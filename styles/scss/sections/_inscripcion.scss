@@ -1,0 +1,86 @@
+.inscripcion {
+    margin-top: 7.5rem;
+    background-color: $very-light-purple;
+
+    .container-sm {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    &__header {
+        margin-bottom: 3rem;
+
+        p {
+            color: $dark-purple;
+        }
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+
+    .h2 {
+        color: $purple;
+    }
+
+    &__icon {
+        @include purple-shadow-img;
+        margin-right: 1rem;
+        width: 3rem;
+        height: auto;
+        @media (min-width: map-get($grid-breakpoints, md)) {
+            margin-right: 2rem;
+            width: 3.75rem;
+
+        }
+         
+    }
+
+    &__form-container {
+        z-index: 1;
+        border-width: 3px;
+        @media (max-width: map-get($grid-breakpoints, md)) {
+           transform: scale(0.9);
+         }
+
+    }
+
+    &__img {
+        max-width: 90%;
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+            display: none;
+         }
+
+        @media (min-width: map-get($grid-breakpoints, xl)) {
+            max-width: 100%;
+         }
+    }
+
+    &__image-small {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-bottom: 2rem;
+         }
+
+        @media (min-width: map-get($grid-breakpoints, md)) {
+            padding: 0 0 0 2rem;
+         }
+
+        @media (min-width: map-get($grid-breakpoints, lg)) {
+            display: none !important;
+         }
+    }
+
+    &__img-small {
+        max-width: 90%;
+        @media (min-width: map-get($grid-breakpoints, md)) {
+            max-width: 100%;
+         }
+  
+    }
+}
