@@ -282,7 +282,7 @@ function translateSpanish() {
 
     <div class="legales__title d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
       <img src="img\legales_icon.svg" alt="Un ícono de una balanza." class="legales__icon">
-      <h2 class="h2">FAQ</h2>
+      <h2 class="h2">Preguntas Frecuentes</h2>
     </div>
 
     <div class="row">
