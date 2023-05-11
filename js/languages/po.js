@@ -489,7 +489,7 @@ function translatePortuguese() {
 
           <!-- CONDICIONES GENERALES -->
           <div>
-            <p class="legal-title">Condições gerais</p>
+            <p class="legal-title">A. Condições gerais</p>
             <p>1. O Instituto Nacional de Promoção Turística (doravante "INPROTUR") criou, por meio de sua Diretoria de Promoção Internacional, o programa chamado "TESOROS ARGENTINOS" (doravante, o "Programa") de alocação de pontos através dos consumos feitos exclusivamente por turistas estrangeiros que visitam a República Argentina (doravante "Usuário Turista"). Esses pontos podem ser utilizados exclusivamente no Programa, por meio de uma plataforma de troca criada para este fim pelo INPROTUR em conjunto com a empresa Bigbox S.A., CUIT 30-71109155-2. A plataforma de troca foi desenvolvida especialmente para o Programa.</p>
             <p> Os consumos feitos por turistas nacionais e ou pessoas jurídicas nacionais e estrangeiras está expressamente excluído do Programa.
             </p>
@@ -500,7 +500,7 @@ function translatePortuguese() {
           <!-- ADQUISION DE PUNTOS -->
 
           <div>
-            <p class="legal-title">Adquisição de pontos</p>
+            <p class="legal-title">B. Adquisição de pontos</p>
             <p>1. Os Usuários Turistas que fizerem a compra de uma passagem ou pacote turístico para a República Argentina entre as datas de 01/01/2023 e 31/12/2023 ou até que o estoque disponível para o Programa esteja esgotado, receberão um "Gift Card" pessoal e intransferível para gastar apenas em território argentino durante sua estadia naquele país. Esse benefício será aplicado a passagens ou pacotes adquiridos em empresas de transporte e ou agências selecionadas pelo INPROTUR para promover o benefício.</p>
 
             <p>2. No caso da empresa fluvial Buquebus, o Programa será implementado apenas para os passageiros que adquirirem Pacotes Turísticos (Combo De Passagem e Hospedagem)</p>
@@ -586,6 +586,8 @@ function translatePortuguese() {
           <p>2. A recusa de qualquer Provedor de oferecer ao Usuário Turista uma certa experiência para qualquer hipótese de não-observância de tais políticas e ou regras não será considerada pelo Usuário Turista como discriminação e ou não conformidade, e, portanto, não implicará qualquer responsabilidade de tal Provedor, INPROTUR ou Bigbox.</p>
         </div>
 
+        <br><br>
+        
         <!-- DISPOSICIONES GENERALES -->
         <div>
           <p class="legal-title">G. Disposições Gerais</p>
