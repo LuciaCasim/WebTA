@@ -10,6 +10,10 @@
     .h5 {
         color: $dark-purple;
         line-height: 120%;
+        font-size: 1.125rem;
+        @media (max-width: map-get($grid-breakpoints, sm)) {
+            font-size: 0.875rem;
+        }
     }
 
     &__icon {
@@ -30,8 +34,15 @@
     &-button, &-button:focus {
         border-radius: 15px !important;
         padding: 0.5rem;
-        padding-right:1rem;
+        padding-right:2rem;
         transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            padding-top:1rem;
+            padding-bottom:1rem;
+            padding-right:1rem;
+
+        }
                      
         @include whiteButton;
         }
@@ -52,11 +63,11 @@
             border-radius: 15px;
             border: solid 2px $gold;
             @include manrope-bold;
-            width: 3.75rem;
-            height: 3.75rem;
+            min-width: 3.75rem;
+            min-height: 3.75rem;
 
             color: white;
-            font-size: 1.562595rem;
+            font-size: 1.25rem;
             margin-bottom: 0;
             @include manrope-bold();
             margin-right: 2rem;
@@ -64,8 +75,8 @@
             @media (max-width: map-get($grid-breakpoints, sm)) {
                 margin-right: 1rem;
                 border-radius: 8px;
-                max-width: 2.625rem;
-                max-height: 2.625rem;
+                min-width: 2.625rem;
+                min-height: 2.625rem;
                 font-size: 1.25rem;
             }
         }
@@ -75,8 +86,12 @@
             padding: 1rem;
             margin-bottom: 1rem;
 
-            p{
+            p {
                 margin-bottom: 1em;
             }
         }
+}
+
+.legal-title {
+    @include manrope-bold();
 }

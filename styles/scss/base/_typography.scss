@@ -67,6 +67,7 @@
     @include manrope-semibold();
     font-size: 1.25rem;
     line-height: 175%;
+    
     @media (max-width: map-get($grid-breakpoints, sm)) {
         font-size: 1rem;
     }

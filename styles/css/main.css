@@ -951,6 +951,12 @@ p {
 .legales .h5 {
   color: #6B598A;
   line-height: 120%;
+  font-size: 1.125rem;
+}
+@media (max-width: 576px) {
+  .legales .h5 {
+    font-size: 0.875rem;
+  }
 }
 .legales__icon {
   filter: drop-shadow(0px 0px 5px rgba(89, 76, 120, 0.3));
@@ -971,12 +977,19 @@ p {
 .accordion-button, .accordion-button:focus {
   border-radius: 15px !important;
   padding: 0.5rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
   transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
   background-color: #F8F8F8;
   box-shadow: 0px 0px 8px 0px rgba(89, 76, 120, 0.3);
   border-radius: 15px;
   border: solid 2px #B285FF;
+}
+@media (max-width: 768px) {
+  .accordion-button, .accordion-button:focus {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+  }
 }
 .accordion-button:not(.collapsed) {
   background: rgb(119, 70, 255);
@@ -999,10 +1012,10 @@ p {
   border: solid 2px #C6931A;
   font-family: "Manrope", "Arial", sans-serif;
   font-weight: 700;
-  width: 3.75rem;
-  height: 3.75rem;
+  min-width: 3.75rem;
+  min-height: 3.75rem;
   color: white;
-  font-size: 1.562595rem;
+  font-size: 1.25rem;
   margin-bottom: 0;
   font-family: "Manrope", "Arial", sans-serif;
   font-weight: 700;
@@ -1015,8 +1028,8 @@ p {
   .accordion-letter {
     margin-right: 1rem;
     border-radius: 8px;
-    max-width: 2.625rem;
-    max-height: 2.625rem;
+    min-width: 2.625rem;
+    min-height: 2.625rem;
     font-size: 1.25rem;
   }
 }
@@ -1027,6 +1040,11 @@ p {
 }
 .accordion-body p {
   margin-bottom: 1em;
+}
+
+.legal-title {
+  font-family: "Manrope", "Arial", sans-serif;
+  font-weight: 700;
 }
 
 .footer {
