@@ -640,7 +640,7 @@ function translateEnglish() {
           <li class="footer__link d-flex"><a href='#inscripcion' id="footer__link-inscripcion" class="whiteButton">Enrolment</a></li>
           <li class="footer__link d-flex"><a href='#experiencias'  id="footer__link-experiencias" class="whiteButton">Experiences</a></li>
           <li class="footer__link d-flex"><a href='#requisitos'  id="footer__link-requisitos" class="whiteButton">Requirements</a></li>
-          <li class="footer__link d-flex"><a href='#legales'  id="footer__link-legales" class="whiteButton">Legal</a></li>
+          <li class="footer__link d-flex"><a href='#legales'  id="footer__link-legales" class="whiteButton">FAQ</a></li>
         </ul>
       </div>
 

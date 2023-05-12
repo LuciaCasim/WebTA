@@ -639,7 +639,7 @@ function translatePortuguese() {
             <li class="footer__link d-flex"><a href='#inscripcion' id="footer__link-inscripcion" class="whiteButton">Inscrição</a></li>
             <li class="footer__link d-flex"><a href='#experiencias'  id="footer__link-experiencias" class="whiteButton">Experiências</a></li>
             <li class="footer__link d-flex"><a href='#requisitos'  id="footer__link-requisitos" class="whiteButton">Requisitos</a></li>
-            <li class="footer__link d-flex"><a href='#legales'  id="footer__link-legales" class="whiteButton">Termos Legais</a></li>
+            <li class="footer__link d-flex"><a href='#legales'  id="footer__link-legales" class="whiteButton">Perguntas Frequentes</a></li>
           </ul>
         </div>
   
