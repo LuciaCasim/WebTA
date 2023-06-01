@@ -71,7 +71,7 @@ function translatePortuguese() {
                 <div class="whiteButton steps__item">
                   <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img\steps_regalo.svg" alt="Ícone de um presente."><p class="steps__indicator-num">3</p></div>
                   <div>
-                    <p class="p steps-p">Quando você chegar na Argentina, sua gift card será ativada automaticamente. Pronto! Agora você pode desfrutar do seu tesouro.</p>
+                    <p class="p steps-p">Uma vez na Argentina, seu vale-presente será validado automaticamente. <strong>Resgate seus pontos</strong> na plataforma para aproveitar os tesouros.</p>
                   </div>
                 </div>   
           </div>
@@ -277,7 +277,7 @@ function translatePortuguese() {
     </section>
   
     <!-- LEGALES -->
- <section class="legales container-sm" id="legales">
+ <section class="legales container-sm" id="preguntas">
 
     <div class="legales__title d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
       <img src="img\legales_icon.svg" alt="Un ícono de una balanza." class="legales__icon">
@@ -426,7 +426,7 @@ function translatePortuguese() {
       <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#legales__accordion">
         <div class="accordion-body p">
           <p>Na plataforma web de Tesoros Argentinos você pode ver as instruções para trocar cada experiência. Você pode escolher entre mais de 1400 experiências filtrando por tipo de experiência ou por província da Argentina.</p>
-          <p>Lá você terá um botão para trocar os pontos pela experiência escolhida.</p>
+          <p>Lá você terá um botão para trocar os pontos pela experiência escolhida. Lembre-se que é <strong>obrigatório</strong> resgatar seus pontos para usar uma experiência.</p>
           <p>Algumas experiências exigem reservas. Depois de trocar seus pontos, você receberá os detalhes de contato da experiência para que possa reservar.</p>
           <p>Uma vez trocados, você receberá um e-mail com um código. Você precisará apresentar esse código para acessar a experiência ou reservar sua vaga. Lembre-se de indicar que você tem <strong>um código BIG BOX.</strong></p>
         </div>
@@ -639,7 +639,7 @@ function translatePortuguese() {
             <li class="footer__link d-flex"><a href='#inscripcion' id="footer__link-inscripcion" class="whiteButton">Inscrição</a></li>
             <li class="footer__link d-flex"><a href='#experiencias'  id="footer__link-experiencias" class="whiteButton">Experiências</a></li>
             <li class="footer__link d-flex"><a href='#requisitos'  id="footer__link-requisitos" class="whiteButton">Requisitos</a></li>
-            <li class="footer__link d-flex"><a href='#legales'  id="footer__link-legales" class="whiteButton">Perguntas Frequentes</a></li>
+            <li class="footer__link d-flex"><a href='#preguntas'  id="footer__link-legales" class="whiteButton">Perguntas Frequentes</a></li>
           </ul>
         </div>
   

@@ -72,7 +72,7 @@ function translateSpanish() {
               <div class="whiteButton steps__item">
                 <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img\steps_regalo.svg" alt="Icono de un regalo."><p class="steps__indicator-num">3</p></div>
                 <div>
-                  <p class="p steps-p">Cuando llegues a Argentina, tu giftcard se activará automáticamente. ¡Listo! Ya podés disfrutar de tu tesoro.</p>
+                  <p class="p steps-p">En Argentina, tu gift card se validará automáticamente. <strong>Canjeá tus puntos</strong> en la plataforma para disfrutar de los tesoros.</p>
                 </div>
               </div>   
         </div>
@@ -278,7 +278,7 @@ function translateSpanish() {
   </section>
 
   <!-- LEGALES -->
-  <section class="legales container-sm" id="legales">
+  <section class="legales container-sm" id="preguntas">
 
     <div class="legales__title d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
       <img src="img\legales_icon.svg" alt="Un ícono de una balanza." class="legales__icon">
@@ -427,7 +427,7 @@ function translateSpanish() {
       <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#legales__accordion">
         <div class="accordion-body p">
           <p>En la plataforma web de Tesoros Argentinos podrás ver las indicaciones para canjear cada experiencia. Podrás elegir entre las más de 1400 experiencias filtrando por tipo de experiencia o por provincia de Argentina.</p>
-          <p>Allí tendrás un botón para canjear la experiencia. </p>
+          <p>Allí tendrás un botón para canjear la experiencia. <strong>Es obligatorio canjear tus puntos en la plataforma para poder usarlas.</strong> </p>
           <p>Algunas experiencias requieren reservas. Una vez que canjees tus puntos, recibirás los datos de contacto de la experiencia para que puedas reservar.</p>
           <p>Una vez canjeada, recibirás un mail con un código. Deberás presentar ese código para acceder a la experiencia o reservar tu lugar. Recuerda indicar que tienes <strong>un código de BIG BOX.</strong></p>
         </div>
@@ -643,7 +643,7 @@ function translateSpanish() {
           <li class="footer__link d-flex"><a href='#inscripcion' id="footer__link-inscripcion" class="whiteButton">Inscripción</a></li>
           <li class="footer__link d-flex"><a href='#experiencias'  id="footer__link-experiencias" class="whiteButton">Experiencias</a></li>
           <li class="footer__link d-flex"><a href='#requisitos'  id="footer__link-requisitos" class="whiteButton">Requisitos</a></li>
-          <li class="footer__link d-flex"><a href='#legales'  id="footer__link-legales" class="whiteButton">Preguntas Frecuentes</a></li>
+          <li class="footer__link d-flex"><a href='#preguntas'  id="footer__link-legales" class="whiteButton">Preguntas Frecuentes</a></li>
         </ul>
       </div>
 

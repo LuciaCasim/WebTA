@@ -72,7 +72,7 @@ function translateEnglish() {
               <div class="whiteButton steps__item">
                 <div class="purpleButton steps__indicator"><img class="steps__indicator-img" src="img\steps_regalo.svg" alt="Icon of a gift."><p class="steps__indicator-num">3</p></div>
                 <div>
-                  <p class="p steps-p">Upon arrival in Argentina, your Gift Card is automatically activated. That’s it! You’ll be ready to enjoy your treasure.</p>
+                  <p class="p steps-p">Once in Argentina, your gift card will be validated automatically. <strong>Redeem your points</strong> on the platform to enjoy the treasures.</p>
                 </div>
               </div>   
         </div>
@@ -278,7 +278,7 @@ function translateEnglish() {
   </section>
 
   <!-- LEGALES -->
-  <section class="legales container-sm" id="legales">
+  <section class="legales container-sm" id="preguntas">
  
      <div class="legales__title d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
        <img src="img\legales_icon.svg" alt="Un ícono de una balanza." class="legales__icon">
@@ -427,7 +427,7 @@ function translateEnglish() {
        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#legales__accordion">
          <div class="accordion-body p">
            <p>On the Tesoros Argentinos web platform, you will see the instructions to redeem the points for experiences. You can choose among more than 1400 experiences filtering by type of experience or by province.</p>
-           <p>There will be a button to click on to choose the experience.</p>
+           <p>There will be a button to click on to choose the experience. It is <strong>mandatory</strong> to redeem your points to be able to access an experience. </p>
            <p>Some experiences require booking in advance. Once you redeem your points, you will receive the contact details for that experience so you can book it.</p>
            <p>Once redeemed, you will receive an email with a code. You must present that code to access the experience or book your place. Remember to say that you have <strong>a BIG BOX code.</strong></p>
          </div>
@@ -640,7 +640,7 @@ function translateEnglish() {
           <li class="footer__link d-flex"><a href='#inscripcion' id="footer__link-inscripcion" class="whiteButton">Enrolment</a></li>
           <li class="footer__link d-flex"><a href='#experiencias'  id="footer__link-experiencias" class="whiteButton">Experiences</a></li>
           <li class="footer__link d-flex"><a href='#requisitos'  id="footer__link-requisitos" class="whiteButton">Requirements</a></li>
-          <li class="footer__link d-flex"><a href='#legales'  id="footer__link-legales" class="whiteButton">FAQ</a></li>
+          <li class="footer__link d-flex"><a href='#preguntas'  id="footer__link-legales" class="whiteButton">FAQ</a></li>
         </ul>
       </div>
 
