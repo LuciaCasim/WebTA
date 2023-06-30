@@ -22,7 +22,7 @@ function translateEnglish() {
   
 
   <!-- HOME -->
-  <section class="home container-sm d-flex align-items-center" id="home" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+  <section class="home container-sm d-flex align-items-center" id="home" data-aos="fade-in" data-aos-easing="ease-in-out">
     <div class="row d-flex align-items-center">
       <div class="order-lg-2 col-lg-5 home__image">
         <img src="img\home__img.png" alt="Woman holding her mobile phone and celebrating." class="img-fluid home__img">
@@ -334,7 +334,7 @@ function translateEnglish() {
            </h2>
            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#legales__accordion">
              <div class="accordion-body p">
-               <p>Foreign tourists over 18 years of age (non-Argentinians) travelling to Argentina until July 15th, 2023 and who stay at least 1 night in the country are eligible for the Tesoros Argentinos Programme.</p>                 
+               <p>Foreign (i.e., non-Argentinian) tourists over 18 years of age who stay in the country for at least 3 nights can participate in Tesoros Argentinos.</p>                 
              </div>
            </div>
          </div>
@@ -477,15 +477,30 @@ function translateEnglish() {
          </div>
        </div>
      </div>
- 
-      <!-- ////////////    ITEM 13     ///////////-->
-      <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+
+     <!-- ////////////    ITEM 13     ///////////-->
+     <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
        <h2 class="accordion-header" id="headingThirteen">
          <button class="accordion-button collapsed h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-           <span class="accordion-letter">13</span> Which are the legal terms of the program?
+           <span class="accordion-letter">13</span>I live abroad, but I have a flight ticket from an airport in Argentina, is it valid?       
          </button>
        </h2>
        <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#legales__accordion">
+         <div class="accordion-body p">
+           <p>Flight tickets are only valid if they prove that the tourist travels from any airport/destination that is not inside Argentina.
+           </p>
+         </div>
+       </div>
+     </div>
+ 
+      <!-- ////////////    ITEM 14     ///////////-->
+      <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+       <h2 class="accordion-header" id="headingFourteen">
+         <button class="accordion-button collapsed h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+           <span class="accordion-letter">14</span> Which are the legal terms of the program?
+         </button>
+       </h2>
+       <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#legales__accordion">
          <div class="accordion-body p">
  
            <!-- CONDICIONES GENERALES -->

@@ -22,7 +22,7 @@ function translateSpanish() {
   
 
   <!-- HOME -->
-  <section class="home container-sm d-flex align-items-center" id="home" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+  <section class="home container-sm d-flex align-items-center" id="home" data-aos="fade-in" data-aos-easing="ease-in-out">
     <div class="row d-flex align-items-center">
       <div class="order-lg-2 col-lg-5 home__image">
         <img src="img\home__img.png" alt="Mujer sosteniendo su celular y festejando" class="img-fluid home__img">
@@ -334,7 +334,7 @@ function translateSpanish() {
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#legales__accordion">
             <div class="accordion-body p">
-              <p>Pueden participar de Tesoros Argentinos turistas extranjeros mayores de 18 años (no argentinos) que viajen al país hasta el 15 de julio de 2023 y que tengan una estadía de al menos 1 noche.</p>                 
+              <p>Pueden participar de Tesoros Argentinos turistas extranjeros mayores de 18 años (no argentinos) que tengan una estadía de al menos 3 noches.</p>                 
             </div>
           </div>
         </div>
@@ -477,15 +477,30 @@ function translateSpanish() {
       </div>
     </div>
 
-     <!-- ////////////    ITEM 13     ///////////-->
-     <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+    <!-- ////////////    ITEM 13     ///////////-->
+    <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
       <h2 class="accordion-header" id="headingThirteen">
         <button class="accordion-button collapsed h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-          <span class="accordion-letter">13</span> ¿Cuáles son los términos legales del programa?
+          <span class="accordion-letter">13</span> Vivo en el exterior, pero tengo un ticket aéreo desde un aeropuerto que está dentro de Argentina, ¿me sirve?             
         </button>
       </h2>
       <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#legales__accordion">
         <div class="accordion-body p">
+          <p>Solamente son válidos los tickets aéreos en los que consta que el turista viaja desde algún
+            aeropuerto / destino que no se encuentra dentro de Argentina.</p>
+        </div>
+      </div>
+    </div>
+
+   <!-- ////////////    ITEM 14     ///////////-->
+   <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+    <h2 class="accordion-header" id="headingFourteen">
+      <button class="accordion-button collapsed h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+        <span class="accordion-letter">14</span> ¿Cuáles son los términos legales del programa?
+      </button>
+    </h2>
+    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#legales__accordion">
+      <div class="accordion-body p">
 
           <!-- CONDICIONES GENERALES -->
           <div>
