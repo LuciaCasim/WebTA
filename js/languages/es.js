@@ -9,6 +9,12 @@ function translateSpanish() {
   document.getElementById("nav-requisitos").innerHTML  ="Requisitos";
   document.getElementById("nav-legales").innerHTML  ="Preguntas Frecuentes";
 
+  document.getElementById("popup").innerHTML =  String.raw`<button id="close" class="popup__close">&times;</button>
+  <h3 class="h3">Tesoros Argentinos se toma un descanso.</h3>
+  <p class="p">Las inscripciones estarán cerradas desde el 15 de julio. <strong>A partir del 15 de agosto podrás volver a anotarte.</strong></p>
+  <p class="p">La segunda edición de Tesoros Argentinos llegará con una sorpresa: <strong>¡tendrá el doble de puntos!</strong></p>
+  <p class="p"><strong>Déjanos tu email</strong> para avisarte cuando reabra la inscripción:</p>
+  <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Recibir aviso para inscribirme</button>`
 
   document.getElementById("main").innerHTML  =  String.raw`<!-- WHATSAPP WIDGET -->
   <div class="whatsapp_widget">
@@ -99,7 +105,7 @@ function translateSpanish() {
             <div class="col-12 col-md-6 order-md-2 inscripcion__image-small d-flex align-items-center"><img src="img\inscripcion__image-small.png" alt="Mujer haciendo rafting" class="img-fluid inscripcion__img-small"></div>
 
             <div class="col-12 col-md-6 col-lg-12 order-md-1 whiteButton inscripcion__form-container d-flex align-items-center">
-              <div  data-tf-widget="gz1NAoZn" data-tf-inline-on-mobile data-tf-opacity="100" data-tf-hide-headers data-tf-iframe-props="title=formularioWeb_ESP" data-tf-transitive-search-params data-tf-medium="snippet" style="width:90%;height:300px;margin:2rem auto;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+              <div  data-tf-widget="twl3SaMi" data-tf-inline-on-mobile data-tf-opacity="100" data-tf-hide-headers data-tf-iframe-props="title=freezeWeb_ES" data-tf-transitive-search-params data-tf-medium="snippet" style="width:90%;height:300px;margin:2rem auto;"></div><script src="//embed.typeform.com/next/embed.js"></script>
             </div>
           </div>
           
@@ -287,6 +293,23 @@ function translateSpanish() {
 
     <div class="row">
       <div class="legales__accordion col-12 col-lg-10 offset-lg-1" id="legales__accordion">
+
+      <!-- ////////////    ITEM 0     ///////////-->
+  
+      <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+       <h2 class="accordion-header" id="headingZero">
+         <button class="accordion-button h5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+           <span class="accordion-letter">0</span> ¿Por qué no puedo inscribirme a Tesoros Argentinos?
+         </button>
+       </h2>
+       <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingZero" data-bs-parent="#legales__accordion">
+         <div class="accordion-body p">
+          <p> Las inscripciones estarán cerradas desde el 15 de julio. <strong>A partir del 15 de agosto podrás volver a anotarte.</strong></p>
+          <p>Si te inscribiste antes del cierre tendrás asegurados los puntos para tu viaje a Argentina.</p>
+          <p><u><a href="#inscripcion">Déjanos tu email</a></u> para avisarte cuando reabra la inscripción.</p>
+         </div>
+       </div>
+     </div>
 
         <!-- ////////////    ITEM 1     ///////////-->
 

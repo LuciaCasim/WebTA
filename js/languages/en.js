@@ -10,6 +10,15 @@ function translateEnglish() {
    document.getElementById("nav-requisitos").innerHTML  ="Requirements";
    document.getElementById("nav-legales").innerHTML  ="FAQ";
 
+
+
+   document.getElementById("popup").innerHTML =  String.raw`<button id="close" class="popup__close">&times;</button>
+   <h3 class="h3">Tesoros Argentinos takes a break.</h3>
+   <p class="p">Registration will temporarily close as of July 15th. <strong>From August 15th, you will be able to sign up again.</strong></p>
+   <p class="p">The second edition of Tesoros Argentinos will bring a surprise: <strong>the points will be duplicated!</strong></p>
+   <p class="p"><strong>Type your email,</strong> and we will let you know when registration reopens:</p>
+   <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Send me a notification to sign up</button>`
+
   document.getElementById("main").innerHTML =  String.raw`<!-- WHATSAPP WIDGET -->
   <div class="whatsapp_widget">
     <div class="whiteButton whatsapp_description">
@@ -99,7 +108,7 @@ function translateEnglish() {
             <div class="col-12 col-md-6 order-md-2 inscripcion__image-small d-flex align-items-center"><img src="img\inscripcion__image-small.png" alt="Woman rafting." class="img-fluid inscripcion__img-small"></div>
 
             <div class="col-12 col-md-6 col-lg-12 order-md-1 whiteButton inscripcion__form-container d-flex align-items-center">
-                <div data-tf-widget="XtP3kqPZ" data-tf-inline-on-mobile data-tf-opacity="100" data-tf-iframe-props="title=formularioWeb_ENG" data-tf-transitive-search-params data-tf-medium="snippet" style="width:90%;height:300px;margin:2rem auto;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                <div data-tf-widget="iPknSrhV" data-tf-inline-on-mobile data-tf-opacity="100" data-tf-iframe-props="title=freezeWeb_EN" data-tf-transitive-search-params data-tf-medium="snippet" style="width:90%;height:300px;margin:2rem auto;"></div><script src="//embed.typeform.com/next/embed.js"></script>
             </div>
           </div>
           
@@ -287,6 +296,23 @@ function translateEnglish() {
  
      <div class="row">
        <div class="legales__accordion col-12 col-lg-10 offset-lg-1" id="legales__accordion">
+
+       <!-- ////////////    ITEM 0     ///////////-->
+  
+       <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+        <h2 class="accordion-header" id="headingZero">
+          <button class="accordion-button h5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+            <span class="accordion-letter">0</span>Why can't I sign up for Tesoros Argentinos?
+          </button>
+        </h2>
+        <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingZero" data-bs-parent="#legales__accordion">
+          <div class="accordion-body p">
+           <p>Registration will temporarily close as of July 15th. <strong>From August 15th, you will be able to sign up again.</strong></p>
+           <p>If you had signed up before the closing date, your points for your trip to Argentina are secured.</p>
+           <p><u><a href="#inscripcion">Leave your email,</a></u> and we will let you know when registration reopens.</p>
+          </div>
+        </div>
+      </div>
  
          <!-- ////////////    ITEM 1     ///////////-->
  
