@@ -41,6 +41,10 @@ p {
   }
 }
 
+:root {
+  color-scheme: light only;
+}
+
 * {
   font-family: "Manrope", "Arial", sans-serif;
 }
@@ -419,9 +423,12 @@ p {
   flex-direction: column;
   filter: none;
   padding: 3rem;
-  max-width: 90%;
+  width: 50%;
 }
 .popup h3 {
+  margin-bottom: 1rem;
+}
+.popup p {
   margin-bottom: 1rem;
 }
 .popup__close {
@@ -442,6 +449,12 @@ p {
 .popup .p {
   color: #6B598A;
 }
+@media (min-width: 1400px) {
+  .popup {
+    padding: 3rem;
+    width: 40%;
+  }
+}
 @media (max-width: 992px) {
   .popup {
     padding: 3rem;
@@ -452,7 +465,7 @@ p {
   .popup {
     padding: 1.5rem;
     padding-top: 4rem;
-    width: 100%;
+    width: 95%;
   }
 }
 

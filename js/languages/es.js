@@ -10,7 +10,7 @@ function translateSpanish() {
   document.getElementById("nav-legales").innerHTML  ="Preguntas Frecuentes";
 
   document.getElementById("popup").innerHTML =  String.raw`<button id="close" class="popup__close">&times;</button>
-  <h3 class="h3">Tesoros Argentinos se toma un descanso.</h3>
+  <h3 class="h3">Tesoros Argentinos se toma un descanso</h3>
   <p class="p">Las inscripciones estarán cerradas desde el 15 de julio. <strong>A partir del 15 de agosto podrás volver a anotarte.</strong></p>
   <p class="p">La segunda edición de Tesoros Argentinos llegará con una sorpresa: <strong>¡tendrá el doble de puntos!</strong></p>
   <p class="p"><strong>Déjanos tu email</strong> para avisarte cuando reabra la inscripción:</p>
@@ -99,7 +99,7 @@ function translateSpanish() {
               <img src="img\inscripcion_icon.svg" alt="Un ícono de un lápiz completando un formulario." class="inscripcion__icon">
               <h2 class="h2">Inscripción</h2>
             </div>
-            <p class="p-big">Respondé el siguiente formulario adjuntando tus comprobantes de <strong>pasaje y alojamiento.</strong></p>
+            <!-- <p class="p-big">Respondé el siguiente formulario adjuntando tus comprobantes de <strong>pasaje y alojamiento.</strong></p> -->
           </div>
           <div class="row">
             <div class="col-12 col-md-6 order-md-2 inscripcion__image-small d-flex align-items-center"><img src="img\inscripcion__image-small.png" alt="Mujer haciendo rafting" class="img-fluid inscripcion__img-small"></div>

@@ -17,6 +17,10 @@
         margin-bottom: 1rem;
     }
 
+    p {
+        margin-bottom: 1rem;
+    }
+
     &__close { 
         position: absolute;
         top: 10px;
@@ -41,7 +45,13 @@
 
     padding: 3rem;
 
-    max-width: 90%;
+    width: 50%;
+
+    @media (min-width: map-get($grid-breakpoints, xxl)) {
+        padding: 3rem;
+        width: 40%;
+
+    }
 
     @media (max-width: map-get($grid-breakpoints, lg)) {
         padding: 3rem;
@@ -52,7 +62,7 @@
     @media (max-width: map-get($grid-breakpoints, md)) {
         padding: 1.5rem;
         padding-top: 4rem;
-        width: 100%;
+        width: 95%;
 
     }
 }

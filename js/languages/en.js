@@ -13,7 +13,7 @@ function translateEnglish() {
 
 
    document.getElementById("popup").innerHTML =  String.raw`<button id="close" class="popup__close">&times;</button>
-   <h3 class="h3">Tesoros Argentinos takes a break.</h3>
+   <h3 class="h3">Tesoros Argentinos takes a break</h3>
    <p class="p">Registration will temporarily close as of July 15th. <strong>From August 15th, you will be able to sign up again.</strong></p>
    <p class="p">The second edition of Tesoros Argentinos will bring a surprise: <strong>the points will be duplicated!</strong></p>
    <p class="p"><strong>Type your email,</strong> and we will let you know when registration reopens:</p>
@@ -102,7 +102,7 @@ function translateEnglish() {
               <img src="img\inscripcion_icon.svg" alt="Pencil icon writing on a sheet of paper." class="inscripcion__icon">
               <h2 class="h2">Enrolment</h2>
             </div>
-            <p class="p-big">Fill in the form below, and attach your <strong>ticket and accommodation voucher.</strong></p>
+            <!-- <p class="p-big">Fill in the form below, and attach your <strong>ticket and accommodation voucher.</strong></p> -->
           </div>
           <div class="row">
             <div class="col-12 col-md-6 order-md-2 inscripcion__image-small d-flex align-items-center"><img src="img\inscripcion__image-small.png" alt="Woman rafting." class="img-fluid inscripcion__img-small"></div>
