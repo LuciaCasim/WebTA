@@ -9,14 +9,6 @@ function translatePortuguese() {
     document.getElementById("nav-requisitos").innerHTML  ="Requisitos";
     document.getElementById("nav-legales").innerHTML  ="Perguntas Frequentes";
 
-    document.getElementById("popup").innerHTML =  String.raw`<button id="close" class="popup__close">&times;</button>
-    <h3 class="h3">Tesoros Argentinos faz uma pequena pausa</h3>
-    <p class="p">As inscrições serão fechadas a partir do dia 15 de julho. <strong>A partir de 15 de agosto você pode se inscrever novamente.</strong></p>
-    <p class="p">A segunda edição do programa Tesoros Argentinos chegará com uma surpresa: <strong>terá o dobro de pontos!</strong></p>
-    <p class="p"><strong>Deixe-nos seu e-mail</strong> para avisá-lo quando a inscrição reabrir:</p>
-    <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Receber aviso para se inscrever</button>`
-
-
   document.getElementById("main").innerHTML = String.raw`<!-- WHATSAPP WIDGET -->
   <div class="whatsapp_widget">
       <div class="whiteButton whatsapp_description">
@@ -100,13 +92,13 @@ function translatePortuguese() {
                 <img src="img\inscripcion_icon.svg" alt="Ícone de um lápis escrevendo em uma folha." class="inscripcion__icon">
                 <h2 class="h2">Inscrição</h2>
               </div>
-              <!-- <p class="p-big">Responda ao seguinte formulário anexando o seu <strong>bilhete e vouchers de hospedagem.</strong></p> -->
+              <p class="p-big">Responda ao seguinte formulário anexando o seu <strong>bilhete e vouchers de hospedagem.</strong></p>
             </div>
             <div class="row">
               <div class="col-12 col-md-6 order-md-2 inscripcion__image-small d-flex align-items-center"><img src="img\inscripcion__image-small.png" alt="Mulher fazendo rafting." class="img-fluid inscripcion__img-small"></div>
   
               <div class="col-12 col-md-6 col-lg-12 order-md-1 whiteButton inscripcion__form-container d-flex align-items-center">
-                  <div data-tf-widget="YiVJeux1" data-tf-inline-on-mobile data-tf-opacity="100" data-tf-iframe-props="title=freezeWeb_POR" data-tf-transitive-search-params data-tf-medium="snippet" style="width:90%;height:300px;margin:2rem auto;"></div><script src="//embed.typeform.com/next/embed.js"></script>            
+                  <div data-tf-widget="prGmBI5l" data-tf-inline-on-mobile data-tf-opacity="100" data-tf-iframe-props="title=formularioWeb_POR" data-tf-transitive-search-params data-tf-medium="snippet" style="width:90%;height:300px;margin:2rem auto;"></div><script src="//embed.typeform.com/next/embed.js"></script>            
               </div>
             </div>
             
@@ -294,23 +286,6 @@ function translatePortuguese() {
 
     <div class="row">
       <div class="legales__accordion col-12 col-lg-10 offset-lg-1" id="legales__accordion">
-
-      <!-- ////////////    ITEM 0     ///////////-->
-  
-      <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
-       <h2 class="accordion-header" id="headingZero">
-         <button class="accordion-button h5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
-           <span class="accordion-letter">0</span> Por que não posso-me inscrever no programa Tesoros Argentinos?
-         </button>
-       </h2>
-       <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingZero" data-bs-parent="#legales__accordion">
-         <div class="accordion-body p">
-          <p>As inscrições serão fechadas a partir do dia 15 de julho. <strong>A partir de 15 de agosto você pode se inscrever novamente.</strong></p>
-          <p>Se você se inscreveu antes do fechamento terá garantido os pontos para sua viagem à Argentina.</p>
-          <p><u><a href="#inscripcion">Deixe-nos seu e-mail</a></u> para informá-lo quando a inscrição reabrir.</p>
-         </div>
-       </div>
-     </div>
 
         <!-- ////////////    ITEM 1     ///////////-->
 
