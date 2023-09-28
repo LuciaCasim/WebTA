@@ -333,7 +333,7 @@ p {
   align-items: center;
   position: fixed;
   bottom: 3%;
-  right: 2%;
+  right: 5%;
   z-index: 20;
 }
 @keyframes fadeInAnimation {
@@ -342,13 +342,6 @@ p {
   }
   100% {
     opacity: 1;
-  }
-}
-@media (max-width: 576px) {
-  .whatsapp_widget {
-    transform: scale(1.1);
-    right: 24px;
-    bottom: 24px;
   }
 }
 
@@ -384,20 +377,16 @@ p {
   padding-right: 2rem;
   position: relative;
   right: -1rem;
-  height: 2.5rem;
+  height: 3rem;
   font-size: 0.6875rem;
   z-index: 9;
   font-family: "Manrope", "Arial", sans-serif;
   font-weight: 400;
 }
-@media (max-width: 992px) {
-  .whatsapp_description {
-    display: none;
-  }
-}
 .whatsapp_description span {
   font-family: "Manrope", "Arial", sans-serif;
   font-weight: 700;
+  text-decoration: underline;
 }
 
 .home {

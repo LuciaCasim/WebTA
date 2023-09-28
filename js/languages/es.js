@@ -10,7 +10,7 @@ function translateSpanish() {
   document.getElementById("nav-legales").innerHTML  ="Preguntas Frecuentes";
 
 
-  document.getElementById("main").innerHTML  =  String.raw`<!-- WHATSAPP WIDGET -->
+  document.getElementById("main").innerHTML  =  String.raw`<!-- WHATSAPP WIDGET
   <div class="whatsapp_widget">
     <div class="whiteButton whatsapp_description">
       <p>¿Dudas? <span>¡Escribinos!</span></p>
@@ -18,7 +18,16 @@ function translateSpanish() {
       <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122403532" target="_blank" rel="noopener noreferrer">
         <img src="img\whatsapp_icon.svg" alt="Icono de whatsapp">
       </a>       
-  </div>
+  </div> -->
+
+  <div class="whatsapp_widget">
+        <div class="whiteButton whatsapp_description">
+          <p>¿Dudas? Escribinos a <br><span> <a href="mailto:tesorosargentinos@argentina.travel" target="_blank">tesorosargentinos@argentina.travel</a> </span></p>
+        </div>
+          <!-- <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122403532" target="_blank" rel="noopener noreferrer">
+            <img src="img\whatsapp_icon.svg" alt="Icono de whatsapp">
+          </a>        -->
+      </div>
   
 
   <!-- HOME -->
