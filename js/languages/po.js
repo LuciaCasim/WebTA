@@ -17,24 +17,8 @@ function translatePortuguese() {
     <p class="p">Voltaremos em breve com novos benefícios!</p>
     <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceitar</button>`
 
-  document.getElementById("main").innerHTML = String.raw`<!-- WHATSAPP WIDGET
-  <div class="whatsapp_widget">
-      <div class="whiteButton whatsapp_description">
-        <p>Dúvidas? <span>Escreva para nós!</span></p>
-      </div>
-        <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122403532" target="_blank" rel="noopener noreferrer">
-          <img src="img\whatsapp_icon.svg" alt="Whatsapp icon">
-        </a>       
-    </div> -->
-
-  <div class="whatsapp_widget">
-  <div class="whiteButton whatsapp_description">
-    <p>Dúvidas? Escreva para nós!<br><span> <a href="mailto:tesorosargentinos@argentina.travel" target="_blank">tesorosargentinos@argentina.travel</a> </span></p>
-  </div>
-    <!-- <a class="purpleButton whatsapp_button" href="https://api.whatsapp.com/send?phone=5491122403532" target="_blank" rel="noopener noreferrer">
-      <img src="img\whatsapp_icon.svg" alt="Icono de whatsapp">
-    </a>        -->
-</div>
+  document.getElementById("main").innerHTML = String.raw`
+  
     
   
     <!-- HOME -->
