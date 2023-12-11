@@ -10,6 +10,15 @@ function translateEnglish() {
    document.getElementById("nav-requisitos").innerHTML  ="Requirements";
    document.getElementById("nav-legales").innerHTML  ="FAQ";
 
+   document.getElementById("popup").innerHTML =  String.raw`
+    <button id="close" class="popup__close">&times;</button>
+    <h3 class="h3">See you soon!</h3>
+    <p class="p">Tesoros Argentinos had a very successful season.</p>
+    <p class="p">We are improving to come back with new benefits.</p>
+    <p class="p">Thank you so much for joining us!</p>
+    <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceptar</button>`
+
+
   document.getElementById("main").innerHTML =  String.raw`<!-- WHATSAPP WIDGET -->
   <!-- <div class="whatsapp_widget">
     <div class="whiteButton whatsapp_description">

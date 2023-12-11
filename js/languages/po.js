@@ -9,6 +9,14 @@ function translatePortuguese() {
     document.getElementById("nav-requisitos").innerHTML  ="Requisitos";
     document.getElementById("nav-legales").innerHTML  ="Perguntas Frequentes";
 
+    document.getElementById("popup").innerHTML =  String.raw`
+    <button id="close" class="popup__close">&times;</button>
+    <h3 class="h3">Até breve!</h3>
+    <p class="p">Tesoros Argentinos teve uma temporada de muito sucesso.</p>
+    <p class="p">Estamos a melhorar para voltar com novos benefícios.</p>
+    <p class="p">Muito obrigado por fazerem parte disto!</p>
+    <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceptar</button>`
+
   document.getElementById("main").innerHTML = String.raw`<!-- WHATSAPP WIDGET
   <div class="whatsapp_widget">
       <div class="whiteButton whatsapp_description">
