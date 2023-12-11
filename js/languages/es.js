@@ -11,10 +11,10 @@ function translateSpanish() {
 
   document.getElementById("popup").innerHTML =  String.raw`
     <button id="close" class="popup__close">&times;</button>
-    <h3 class="h3">¡Hasta pronto!</h3>
-    <p class="p">Tesoros Argentinos tuvo una temporada muy exitosa.</p>
-    <p class="p">Estamos mejorando para volver con nuevos beneficios.</p>
-    <p class="p">¡Muchas gracias por ser parte!</p>
+    <h3 class="h3">¡Nos vemos pronto!</h3>
+    <p class="p">Gracias a vos, Tesoros Argentinos tuvo un 2023 muy exitoso.</p>
+    <p class="p">Argentina se convirtió en el destino preferido para turistas de todo el mundo.</p>
+    <p class="p">¡Pronto volveremos con nuevos beneficios!</p>
     <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceptar</button>`
 
 

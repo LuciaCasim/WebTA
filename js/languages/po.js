@@ -12,10 +12,10 @@ function translatePortuguese() {
     document.getElementById("popup").innerHTML =  String.raw`
     <button id="close" class="popup__close">&times;</button>
     <h3 class="h3">Até breve!</h3>
-    <p class="p">Tesoros Argentinos teve uma temporada de muito sucesso.</p>
-    <p class="p">Estamos a melhorar para voltar com novos benefícios.</p>
-    <p class="p">Muito obrigado por fazerem parte disto!</p>
-    <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceptar</button>`
+    <p class="p">Graças a você, a Tesoros Argentinos teve um 2023 de muito sucesso.</p>
+    <p class="p">A Argentina se tornou o destino preferido de turistas de todo o mundo.</p>
+    <p class="p">Voltaremos em breve com novos benefícios!</p>
+    <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceitar</button>`
 
   document.getElementById("main").innerHTML = String.raw`<!-- WHATSAPP WIDGET
   <div class="whatsapp_widget">
