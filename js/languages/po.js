@@ -9,13 +9,13 @@ function translatePortuguese() {
     document.getElementById("nav-requisitos").innerHTML  ="Requisitos";
     document.getElementById("nav-legales").innerHTML  ="Perguntas Frequentes";
 
-    document.getElementById("popup").innerHTML =  String.raw`
-    <button id="close" class="popup__close">&times;</button>
-    <h3 class="h3">Até breve!</h3>
-    <p class="p">Graças a você, a Tesoros Argentinos teve um 2023 de muito sucesso.</p>
-    <p class="p">A Argentina se tornou o destino preferido de turistas de todo o mundo.</p>
-    <p class="p">Voltaremos em breve com novos benefícios!</p>
-    <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceitar</button>`
+    // document.getElementById("popup").innerHTML =  String.raw`
+    // <button id="close" class="popup__close">&times;</button>
+    // <h3 class="h3">Até breve!</h3>
+    // <p class="p">Graças a você, a Tesoros Argentinos teve um 2023 de muito sucesso.</p>
+    // <p class="p">A Argentina se tornou o destino preferido de turistas de todo o mundo.</p>
+    // <p class="p">Voltaremos em breve com novos benefícios!</p>
+    // <button class="goldenButton hoverGoldenButton popup__button" id="popup__button">Aceitar</button>`;
 
   document.getElementById("main").innerHTML = String.raw`
   
